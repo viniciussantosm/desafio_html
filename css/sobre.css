@@ -36,7 +36,7 @@
 .pacotes-vendidos-table {
     width: 70%;
     min-height: 200px;
-    border: 2px solid #666;
+    border: 2px solid var(--very-dark-gray);
     border-radius: 15px;
     margin: 0 auto;
     padding: 1em 2em;
@@ -47,13 +47,13 @@
 .pacotes-vendidos-table td:hover,
 .pacotes-vendidos-table th:hover {
     transition: all ease-out 0.3s;
-    background-color: #ddd;
-    color: #fff;
+    background-color: var(--light-gray);
+    color: var(--white);
 }
 
 .pacotes-vendidos-table th,
 .pacotes-vendidos-table td {
-    border: 1px solid #666;
+    border: 1px solid var(--very-dark-gray);
     font-size: 1.4rem;
     padding: 0.5em 1em;
 }
