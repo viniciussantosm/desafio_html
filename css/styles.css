@@ -104,6 +104,17 @@ body {
     color: var(--gray);
 }
 
+.search-input {
+    padding: 0.5em 1em;
+    font-size: 0.9rem;
+    border-radius: 13px;
+    border: none;
+}
+
+.search-input:focus {
+    outline-color: var(--yellow);
+}
+
 .top-image-container {
     position: relative;
     width: 100%;
