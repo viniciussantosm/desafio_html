@@ -1,3 +1,16 @@
+:root{
+    --dark-gray: #aaa;
+    --light-dark-gray: #bbb;
+    --gray: #ccc;
+    --light-gray: #ddd;
+    --very-light-gray: #eee;
+    --white: #fff;
+    --very-dark-gray: #666;
+    --darker-gray: #444;
+    --yellow: rgb(255, 255, 0);
+    --light-yellow: rgb(255, 255, 127);
+}
+
 html,
 body {
     margin: 0 auto;
