@@ -61,3 +61,36 @@
 .pacotes-vendidos-table td {
     width: 50%;
 }
+
+@media only screen and (max-width: 650px) {
+
+    .container {
+        padding: 0;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .page-title {
+        margin: 0.5em 0;
+    }
+
+    .content-card {
+        text-align: center;
+    }
+
+    .content-card:hover {
+        scale: 1.05;
+    }
+
+    .content-card-container {
+        padding-bottom: 0em;
+    }
+
+    .quote-container {
+        margin: 4em 0 3em 0;
+    }
+
+    .table-container {
+        padding-bottom: 4em;
+    }
+}
