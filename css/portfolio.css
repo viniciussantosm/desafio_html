@@ -54,3 +54,14 @@
     transition: all 0.5s ease-out;
     color: var(--gray);
 }
+
+@media only screen and (max-width: 650px) {
+    .page-subtitle {
+        text-align: center;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+    }
+}
