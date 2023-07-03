@@ -102,7 +102,15 @@ span.contact-info-text {
     background-color: var(--light-yellow);
 }
 
-@media only screen and (max-width: 650px) {
+
+@media only screen and (max-width: 1400px) {
+
+    .container {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
 
     .container {
         text-align: center;
@@ -112,6 +120,10 @@ span.contact-info-text {
 
     .page-title {
         margin-top: 1em;
+    }
+
+    .page-title-border {
+        display: none;
     }
 
     .section-title {
@@ -129,6 +141,11 @@ span.contact-info-text {
 
     .content-card {
         padding: 0 0 1em 0;
+        margin-bottom: 2em;
+    }
+
+    .content-card:hover {
+        scale: 1.05;
     }
 
     .contact-info-container {
@@ -150,4 +167,9 @@ span.contact-info-text {
     .btn {
         margin: 1em;
     }
+}
+
+@media only screen and (max-width: 800px) {
+
+    
 }
