@@ -80,3 +80,17 @@
     font-size: 1.3rem;
     margin: 0.3em 0 0.5em 0;
 }
+
+@media only screen and (max-width: 650px) {
+
+    .post-card {
+        flex-direction: column-reverse;
+        margin-bottom: 2em;
+    }
+
+    .post-card img {
+        max-width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+    }
+}
