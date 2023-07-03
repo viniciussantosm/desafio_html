@@ -101,3 +101,53 @@ span.contact-info-text {
     transition: all 1s ease-out;
     background-color: var(--light-yellow);
 }
+
+@media only screen and (max-width: 650px) {
+
+    .container {
+        text-align: center;
+        width: 90%;
+        padding: 0;
+    }
+
+    .page-title {
+        margin-top: 1em;
+    }
+
+    .section-title {
+        padding: 0;
+    }
+
+    .contact-channels-container {
+        padding: 0;
+    }
+
+    .content-card-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-card {
+        padding: 0 0 1em 0;
+    }
+
+    .contact-info-container {
+        justify-content: center;
+    }
+
+    .contact-info-text {
+        padding-left: 0.3em;
+    }
+
+    .custom-input {
+        margin: 0 1em;
+    }
+
+    .custom-textArea {
+        margin: 0 1em;
+    }
+
+    .btn {
+        margin: 1em;
+    }
+}
