@@ -19,7 +19,7 @@
 .contact-info-title {
     font-size: 1.5em;
     font-weight: bold;
-    color: #000;
+    color: var(--black);
     transition: all .5s;
 }
 
@@ -40,7 +40,7 @@ span.contact-info-text {
 }
 
 .contact-info-text:hover {
-    color: #ccc;
+    color: var(--gray);
 }
 
 #contact-form {
@@ -61,43 +61,43 @@ span.contact-info-text {
     font-size: 1.5em;
     padding: 0.5em;
     min-height: 2em;
-    border: 1px solid #666;
+    border: 1px solid var(--very-dark-gray);
 }
 
 .custom-input:focus {
     outline: none;
-    border: 1.5px solid #aaa;
+    border: 1.5px solid var(--dark-gray);
 }
 
 .custom-textArea {
     border-radius: 10px;
     font-size: 1.5em;
     padding: 0.5em;
-    border: 1px solid #666;
+    border: 1px solid var(--very-dark-gray);
 }
 
 .textArea:focus {
     outline: none;
-    border: 1.5px solid #aaa;
+    border: 1.5px solid var(--dark-gray);
 }
 
 .btn {
     padding: 0.5em 2em;
     margin: 1em 0 0.5em 0;
-    color: #fff;
+    color: var(--white);
     font-weight: bold;
     font-size: 1.5em;
-    background-color: rgb(255, 255, 0);
+    background-color: var(--yellow);
     border: none;
     border-radius: 10px;
 }
 
 .btn:hover {
     transition: all .3s ease-out;
-    background-color: rgb(236, 236, 40);
+    background-color: var(--dark-yellow);
 }
 
 .btn:active {
     transition: all 1s ease-out;
-    background-color: rgb(255, 255, 127);
+    background-color: var(--light-yellow);
 }

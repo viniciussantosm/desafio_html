@@ -8,7 +8,9 @@
     --very-dark-gray: #666;
     --darker-gray: #444;
     --yellow: rgb(255, 255, 0);
+    --dark-yellow: rgb(236, 236, 40);
     --light-yellow: rgb(255, 255, 127);
+    --black: #000;
 }
 
 html,
