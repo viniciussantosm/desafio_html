@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 2em;
-    border: 2px solid #ddd;
+    border: 2px solid var(--light-gray);
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -32,7 +32,7 @@
 
 .section-text-container a {
     text-decoration: none;
-    color: #444;
+    color: var(--darker-gray);
 }
 
 .section-text-container h3 {
@@ -42,7 +42,7 @@
 
 .section-text-container h3:hover {
     transition: all 0.3s ease-out;
-    color: #bbb;
+    color: var(--light-dark-gray);
 }
 
 .post-description {
@@ -56,7 +56,7 @@
 }
 
 .comment {
-    border-top: 1px solid #bbb;
+    border-top: 1px solid var(--light-dark-gray);
     padding-left: 0.5em;
 }
 
@@ -73,7 +73,7 @@
 
 .author:hover {
     transition: all 1s ease-out;
-    color: #ddd;
+    color: var(--light-gray);
 }
 
 .comment-text {
