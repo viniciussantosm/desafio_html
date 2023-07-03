@@ -7,8 +7,8 @@
 
 .content-card-with-image {
     position: relative;
-    background-color: #000;
-    border: 2px solid #ddd;
+    background-color: var(--black);
+    border: 2px solid var(--light-gray);
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: all 1s;
@@ -45,7 +45,7 @@
     opacity: 0;
     position: absolute;
     bottom: 0;
-    color: #fff;
+    color: var(--white);
 }
 
 .main-card-title {
@@ -59,7 +59,7 @@
 .main-card-list li:hover,
 .card-link:hover {
     transition: all 0.5s ease-out;
-    color: #bbb;
+    color: var(--light-dark-gray);
 }
 
 .main-card-list li:hover + .card-list-border {
@@ -71,7 +71,7 @@
 .card-link-border {
     width: 0%;
     height: 2px;
-    background-color: #bbb;
+    background-color: var(--light-dark-gray);
     margin: 0 0 0.5em 0;
     padding: 0;
 }
@@ -88,7 +88,7 @@
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
 }
 
 .card-link:hover + .card-link-border {
