@@ -1,0 +1,97 @@
+.content-card-container-size-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    max-height: 750px;
+}
+
+.content-card-with-image {
+    position: relative;
+    background-color: #000;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 1s;
+    margin: 0 auto;
+}
+
+.content-card-with-image:hover {
+    scale: 1.2;
+    z-index: 1;
+}
+
+.content-card-with-image:hover > .card-image-content{
+    transition: all 1s ease-out;
+    opacity: 100%;
+}
+.content-card-with-image:hover > .content-card-image {
+    transition: all 1s ease-out;
+    opacity: 35%;
+}
+.content-card-with-image img {
+    height: 102%;
+    max-width: 102%;
+    border-radius: 15px;
+}
+
+.content-card-image {
+    position: relative;
+    top: -0.1em;
+    left: -0.1em;
+}
+
+.card-image-content {
+    padding: 1em 2em;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+}
+
+.main-card-title {
+    font-size: 2rem;
+}
+
+.main-card-list li{
+    font-size: 1.2rem;
+}
+
+.main-card-list li:hover,
+.card-link:hover {
+    transition: all 0.5s ease-out;
+    color: #bbb;
+}
+
+.main-card-list li:hover + .card-list-border {
+    transition: all 1s ease-out;
+    width: 35%;
+}
+
+.card-list-border,
+.card-link-border {
+    width: 0%;
+    height: 2px;
+    background-color: #bbb;
+    margin: 0 0 0.5em 0;
+    padding: 0;
+}
+
+.available-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.card-link {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.card-link:hover + .card-link-border {
+    transition: all 1s ease-out;
+    width: 90%;
+}

@@ -7,67 +7,116 @@
     <meta name="keywords" content="Viagens, agência, viajar, férias">
     <meta name="author" content="Viaje Bem - Agência de Viagens">
     <title>Viaje Bem</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contato.css">
 </head>
 <body>
-    <div class="title-container">
-        <h1>Viaje Bem Agência de Viajens</h1>
-    </div>
-    <div class="nav-container">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
-                <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="portfolio.html">Portfólio</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
-    </div>
-    <h1>Contato</h1>
-    <div>
-        <h2>Entre em contato:</h2>
-        <div>
-            <h3>Telefones</h3>
-            <p>Celular: <span>(43) 99999-9999</span></p>
-            <p>Telefone: <span>(43) 3333-3333</span></p>
+    <header>
+        <div class="top-image-container">
+            <div class="title-container">
+                <h1>Viaje Bem Agência de Viajens</h1>
+            </div>
+            <div class="nav-container">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="sobre.html" class="nav-link">Sobre Nós</a></li>
+                        <li><a href="servicos.html" class="nav-link">Serviços</a></li>
+                        <li><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+                        <li><a href="blog.html" class="nav-link">Blog</a></li>
+                        <li><a href="contato.html" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <img src="img/bali1.jpg" alt="Imagem de Topo" class="top-image">
+            <div class="animated-background"></div>
+            <p class="top-image-animated-text">Fale com um de nossos atendentes</p>
         </div>
-        <div>
-            <p><b>Email:</b> <span>comercial@viajebem.com.br</span></p>
-        </div>
-        <div>
-            <h3>Nossos endereços:</h3>
-            <p>Rua Inicial, 123, Bairro Posterior, São Paulo-SP</p>
-            <p>Avenida Desconhecida, 3820, Centro Histórico, São Paulo-SP</p>
-        </div>
-        <div>
-            <h3>Ou nos envie uma mensagem</h3>
-            <div>
-                <form method="POST" action="contato.html">
-                    <label for="nomeFormularioContato">Nome:</label>
-                    <input type="text" name="nomeFormularioContato" required>
-                    <label for="emailFormularioContato">Email:</label>
-                    <input type="email" name="emailFormularioContato" required>
-                    <label for="mensagemFormularioContato">Mensagem:</label>
-                    <textarea name="mensagemFormularioContato" id="mensagemFormularioContato" cols="40" rows="5" required></textarea>
-                    <button type="submit">Enviar</button>
-                </form>
+    </header>
+    <div class="main-content">
+        <div class="container spaced-container">
+            <div class="page-title-container">
+                <h1 class="page-title">Contato</h1>
+                <div class="page-title-border"></div>
+            </div>
+            <h2 class="section-title">Nossos canais de atendimento:</h2>
+            <div class="contact-channels-container">
+                <div class="content-card-container">
+                    <div class="content-card">
+                        <h3 class="contact-info-title">Telefones</h3>
+                        <div class="contact-info-container">
+                            <img src="img/social-media-logos/whatsapp_small_logo.png" alt="Logotipo Whatsapp">
+                            <p class="contact-info-text"><span>(43) 99999-9999</span></p>
+                        </div>
+                        <div class="contact-info-container">
+                            <img src="img/icons/phone.jpg" alt="Logotipo Telefone">
+                            <p class="contact-info-text"><span>(43) 3333-3333</span></p>
+                        </div>
+                        <h3 class="contact-info-title">Nossos endereços</h3>
+                        <p class="contact-info-text">Rua Inicial, 123, Bairro Posterior, São Paulo-SP</p>
+                        <p class="contact-info-text">Avenida Desconhecida, 3820, Centro Histórico, São Paulo-SP</p>
+                        <h3 class="contact-info-title">Email</h3>
+                        <p class="contact-info-text">comercial@viajebem.com.br</p>
+                        <p class="contact-info-text">suporte@viajebem.com.br</p>
+                    </div>
+                    <div class="content-card">
+                        <h3>Ou nos envie uma mensagem</h3>
+                        <div>
+                            <form method="POST" action="contato.html" id="contact-form">
+                                <label class="custom-label" for="nomeFormularioContato">Nome:</label>
+                                <input class="custom-input" type="text" name="nomeFormularioContato" required>
+                                <label class="custom-label" for="emailFormularioContato">Email:</label>
+                                <input class="custom-input" type="email" name="emailFormularioContato" required>
+                                <label class="custom-label" for="mensagemFormularioContato">Mensagem:</label>
+                                <textarea class="custom-textArea" name="mensagemFormularioContato" id="mensagemFormularioContato" cols="40" rows="5" required></textarea>
+                                <button class="btn" type="submit">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <footer>
-        <div>
-            <p>Institucional</p>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
-                <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="portfolio.html">Portfólio</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
+        <div class="footer-top-section">
+            <div class="footer-company-info">
+                <p class="footer-info-title"><a href="contato.html" class="footer-link">Contato</a></p>
+                <div class="footer-info-container">
+                    <img src="img/social-media-logos/whatsapp_small_logo.png" alt="Logotipo Whatsapp">
+                    <p class="footer-info-text"><span>(43) 99999-9999</span></p>
+                </div>
+                <div class="footer-info-container">
+                    <img src="img/icons/phone.jpg" alt="Logotipo Telefone">
+                    <p class="footer-info-text"><span>(43) 3333-3333</span></p>
+                </div>
+                <p class="footer-info-title">Endereços</p>
+                <p class="footer-info-text">Rua Inicial, 123, Bairro Posterior, São Paulo-SP</p>
+                <p class="footer-info-text">Avenida Desconhecida, 3820, Centro Histórico, São Paulo-SP</p>
+            </div>
+            <div class="footer-links-container">
+                <p class="footer-links-title"><a href="sobre.html" class="footer-link">Institucional</a></p>
+                <ul>
+                    <li><a href="index.html" class="footer-link">Home</a></li>
+                    <li><a href="sobre.html" class="footer-link">Sobre Nós</a></li>
+                    <li><a href="servicos.html" class="footer-link">Serviços</a></li>
+                    <li><a href="portfolio.html" class="footer-link">Portfólio</a></li>
+                    <li><a href="blog.html" class="footer-link">Blog</a></li>
+                    <li><a href="contato.html" class="footer-link">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-social-links-container">
+                <p class="footer-links-title">Mídias Sociais</p>
+                <div class="social-links-container">
+                    <a href="#"><img src="img/social-media-logos/facebook_small_logo.png" alt="Logo Facebook" width="35px"></a>
+                    <a href="#"><img src="img/social-media-logos/instagram_small_logo.png" alt="Logo Instagram" width="45px"></a>
+                    <a href="#"><img src="img/social-media-logos/youtube_small_logo.png" alt="Logo Youtube" width="75px"></a>
+                </div>
+            </div>
+            <div class="footer-extra-container">
+                <a href="index.html" class="footer-company-link"><p class="footer-company-name">Viaje <br/><span class="company-name-small-space">Bem</span><br/><span class="company-name-spaced">Turismo</span></p></a>
+            </div>
         </div>
-        <div>
+        <div class="copyright-container">
             <p>Viaje Bem &copy; Todos os Direitos Reservados</p>
         </div>
     </footer>

@@ -1,0 +1,103 @@
+.section-title {
+    padding-left: 1.5em;
+}
+
+.contact-channels-container {
+    padding-left: 2em;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info-container img {
+    width: 35px;
+    height: 35px;
+}
+
+.contact-info-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+    transition: all .5s;
+}
+
+.contact-info-text {
+    padding-left: 1em;
+    font-size: 1.5em;
+    color: #000;
+    margin: 0.5em 0;
+    transition: all .5s;
+}
+
+.mail-address-container {
+    font-size: 1.5em;
+}
+
+span.contact-info-text {
+    padding: 0;
+}
+
+.contact-info-text:hover {
+    color: #ccc;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin: 0.5em 0;
+}
+
+.custom-label {
+    font-size: 1.5em;
+}
+
+.custom-input {
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding: 0.5em;
+    min-height: 2em;
+    border: 1px solid #666;
+}
+
+.custom-input:focus {
+    outline: none;
+    border: 1.5px solid #aaa;
+}
+
+.custom-textArea {
+    border-radius: 10px;
+    font-size: 1.5em;
+    padding: 0.5em;
+    border: 1px solid #666;
+}
+
+.textArea:focus {
+    outline: none;
+    border: 1.5px solid #aaa;
+}
+
+.btn {
+    padding: 0.5em 2em;
+    margin: 1em 0 0.5em 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: rgb(255, 255, 0);
+    border: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    transition: all .3s ease-out;
+    background-color: rgb(236, 236, 40);
+}
+
+.btn:active {
+    transition: all 1s ease-out;
+    background-color: rgb(255, 255, 127);
+}

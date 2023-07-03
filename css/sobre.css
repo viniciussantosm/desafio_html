@@ -1,0 +1,63 @@
+.quote-container {
+    margin-top: 6em;
+    transition: all ease-out 1s;
+}
+
+.quote-container:hover {
+    transform: scale(1.05);
+}
+
+.quote-container blockquote {
+    text-align: center;
+}
+
+.quote-container p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 3em;
+    text-align: right;
+}
+
+.quote {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.table-container {
+    padding-bottom: 6em;
+}
+
+
+.table-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.pacotes-vendidos-table {
+    width: 70%;
+    min-height: 200px;
+    border: 2px solid #666;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 1em 2em;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.pacotes-vendidos-table td:hover,
+.pacotes-vendidos-table th:hover {
+    transition: all ease-out 0.3s;
+    background-color: #ddd;
+    color: #fff;
+}
+
+.pacotes-vendidos-table th,
+.pacotes-vendidos-table td {
+    border: 1px solid #666;
+    font-size: 1.4rem;
+    padding: 0.5em 1em;
+}
+
+.pacotes-vendidos-table td {
+    width: 50%;
+}
